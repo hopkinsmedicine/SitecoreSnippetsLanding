@@ -1,0 +1,1403 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://www.hopkinsmedicine.org/assets/css/base.css" />
+        <link rel="stylesheet" href="../styles/global.css" />
+        <!-- add favicon -->
+        <link
+            rel="shortcut icon"
+            href="../images/favicon.ico"
+            type="image/x-icon" />
+        <title>Sitecore Custom Snippets Repo</title>
+        <meta name="robots" content="noindex" />
+    </head>
+    <body>
+        <custom-header></custom-header>
+
+        <section class="container">
+            <div class="introduction-block">
+                Johns Hopkins Medicine Generic HTML Snippets for Sitecore CMS
+                are a set of reusable HTML components that can be used to build
+                web pages. These snippets are designed to be used in conjunction
+                with the Sitecore CMS. The snippets are built using HTML, CSS,
+                and JavaScript. Just select a snippet from the list below and
+                copy the code into your Sitecore page. Reach out for assistance
+                if you need any help at
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="mailto:webcenter@jh.edu?subject=Sitecore%20Snippets%20Repo%20Help">
+                    webcenter@jh.edu
+                </a>
+                .
+            </div>
+            <div
+                style="border: 1px solid rgba(0, 44, 199, .2)"
+                class="content-blocks module-container module-spacing">
+                <div class="contain module-wrap">
+                    <!-- search input -->
+                    <div class="form-container">
+                        <form id="search-items">
+                            <label for="search-item">
+                                Search for a snippet
+                            </label>
+                            <input
+                                class="search-input"
+                                type="text"
+                                id="search-item"
+                                placeholder="Type something here..." />
+                        </form>
+                    </div>
+
+                    <div style="text-align: center;" id="no-results"></div>
+
+                    <!-- main accordion -->
+                    <div>
+                        <ul class="accordion accordion-group">
+                            <!-- timelines -->
+                            <li class="accordion-item">
+                                <h3 class="accordion-heading">
+                                    <button
+                                        class="accordion-button"
+                                        aria-expanded="false">
+                                        Timelines
+                                        <span
+                                            class="icon-container"
+                                            aria-hidden="true">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                height="36"
+                                                viewBox="0 0 24 24"
+                                                width="36"
+                                                fill="currentColor"
+                                                focusable="false">
+                                                <path
+                                                    d="M0 0h24v24H0z"
+                                                    fill="none"></path>
+                                                <path
+                                                    d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h3>
+                                <div class="accordion-content">
+                                    <p>
+                                        The timeline snippet is used to display
+                                        a series of events in chronological
+                                        order. It can be used to display a
+                                        timeline of events, a history of an
+                                        organization, or a list of
+                                        accomplishments for example.
+                                    </p>
+                                    <ul class="accordion-content-links">
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline.html">
+                                                Component Library
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-accomplishments.html">
+                                                Accomplishments
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-surgical.html">
+                                                Center for Transgender, Services
+                                                and Appointments
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-greenspring.html">
+                                                Green Spring Station Timeline
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-arvc.html">
+                                                ARVC
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-gim.html">
+                                                History of General Internal
+                                                Medicine (GIM)
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-psychedelic-research.html">
+                                                Psychedelics Research
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-comprehensive-transplant.html">
+                                                Comprehensive Transplant Center
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-brad-urology-01.html">
+                                                Brad Urology Opening
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-brad-urology-02.html">
+                                                Brad Urology 1946 - 1974
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-brad-urology-03.html">
+                                                Brad Urology 1974 - 2004
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-armstrong-creation.html">
+                                                Armstrong Institute
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-sibley-history.html">
+                                                Sibley History
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-gyn-fellowship.html">
+                                                GYN Fellowship
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-gyn-history.html">
+                                                GYN History
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-ketogenic.html">
+                                                Ketogenic
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-pancreatic-cancer.html">
+                                                Pancreatic Center Timeline of
+                                                Discoveries
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-nccu.html">
+                                                NCCU
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-pulmonary-history.html">
+                                                Pulmonary History
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-the-path-to-proton.html">
+                                                The path to proton
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-pedersen.html">
+                                                Pedersen
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./history-timeline.html">
+                                                JHM History
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./timeline-womens-history.html">
+                                                Women's History
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <!-- safety charts -->
+                            <li class="accordion-item">
+                                <h3 class="accordion-heading">
+                                    <button
+                                    style="display: flex; align-items: center; justify-content: start; color: red;"
+                                        class="accordion-button"
+                                        aria-expanded="false">
+                                        Safety Charts (Deprecated)
+                                        <span
+                                        
+                                            class="icon-container"
+                                            aria-hidden="true">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                height="36"
+                                                viewBox="0 0 24 24"
+                                                width="36"
+                                                fill="currentColor"
+                                                focusable="false">
+                                                <path
+                                                    d="M0 0h24v24H0z"
+                                                    fill="none"></path>
+                                                <path
+                                                    d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h3>
+                                <div class="accordion-content">
+                                    <p>
+                                        The safety charts snippet is used to
+                                        display information about patient
+                                        safety, quality of care, readmissions
+                                        and other measures related to patient
+                                        services and satisfaction. <span style="color: red">This charts are deprecated and moved to Tableau</span>.
+                                    </p>
+                                    <ul class="accordion-content-links">
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/infection-prevention.html">
+                                                Safety Charts - Infection
+                                                Prevention
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/delivery-and-newborn-care.html">
+                                                Safety Charts - Delivery And
+                                                Newborn Care
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/hand-hygiene.html">
+                                                Safety Charts - Hand Hygiene
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/home-health-care.html">
+                                                Safety Charts - Home Health Care
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/hospital-inpatient-experience.html">
+                                                Safety Charts - Hospital
+                                                Inpatient Experience
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/pediatric-clabsi.html">
+                                                Safety Charts - Pediatric Clabsi
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/pediatric-hand-hygiene.html">
+                                                Safety Charts - Pediatric Hand
+                                                Hygiene
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/pediatric-bone-fracture.html">
+                                                Safety Charts - Pediatric Bone
+                                                Fracture Time
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/pediatric-leaving-er.html">
+                                                Safety Charts - Pediatric
+                                                Leaving ER without seen
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/pediatric-receiving-flu-vaccine.html">
+                                                Safety Charts - Pediatric
+                                                Receiving Flu Vaccine
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/pediatrics-door-to-diagnostic-evaluation.html">
+                                                Safety Charts - Pediatric Door
+                                                to Diagnostic Evaluation
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/surgical-volumes.html">
+                                                Safety Charts - Surgical Volumes
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/quality-of-patient-care.html">
+                                                Safety Charts - Quality of
+                                                Patient Care
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./safety-charts/readmissions.html">
+                                                Safety Charts - Hospital
+                                                Readmissions
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <!-- calculators -->
+                            <li class="accordion-item">
+                                <h3 class="accordion-heading">
+                                    <button
+                                        class="accordion-button"
+                                        aria-expanded="false">
+                                        Calculators
+                                        <span
+                                            class="icon-container"
+                                            aria-hidden="true">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                height="36"
+                                                viewBox="0 0 24 24"
+                                                width="36"
+                                                fill="currentColor"
+                                                focusable="false">
+                                                <path
+                                                    d="M0 0h24v24H0z"
+                                                    fill="none"></path>
+                                                <path
+                                                    d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h3>
+                                <div class="accordion-content">
+                                    <p>
+                                        Johns Hopkins Medicine includes various
+                                        calculators that users can benefit from.
+                                    </p>
+                                    <ul class="accordion-content-links">
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./calc-bmi-calculator.html">
+                                                Bariatrics BMI
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./calc-estimate-your-prostate-cancer-risk.html">
+                                                Estimate Your Prostate Cancer
+                                                Risk
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./calc-han-tables.html">
+                                                Han Tables
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./calc-partin-tables.html">
+                                                Partin Tables
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./calc-partin-nomograms.html">
+                                                Partin Nomograms
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./calc-cochelar-implant-candidacy.html">
+                                                Cochlear Implant Candidacy
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <!-- som genes to society curriculum -->
+                            <li class="accordion-item">
+                                <h3 class="accordion-heading">
+                                    <button
+                                        class="accordion-button"
+                                        aria-expanded="false">
+                                        Genes to society curriculum
+                                        <span
+                                            class="icon-container"
+                                            aria-hidden="true">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                height="36"
+                                                viewBox="0 0 24 24"
+                                                width="36"
+                                                fill="currentColor"
+                                                focusable="false">
+                                                <path
+                                                    d="M0 0h24v24H0z"
+                                                    fill="none"></path>
+                                                <path
+                                                    d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h3>
+                                <div class="accordion-content">
+                                    <p>
+                                        The curriculum snippet is a colored
+                                        table used to display information about
+                                        the Genes to Society curriculum
+                                        offerings.
+                                    </p>
+                                    <ul class="accordion-content-links">
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./genes-to-society-curriculum/year-one.html">
+                                                Year One
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./genes-to-society-curriculum/year-two.html">
+                                                Year Two
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./genes-to-society-curriculum/year-three.html">
+                                                Year Three
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./genes-to-society-curriculum/year-four.html">
+                                                Year Four
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <!-- banners -->
+                            <li class="accordion-item">
+                                <h3 class="accordion-heading">
+                                    <button
+                                        class="accordion-button"
+                                        aria-expanded="false">
+                                        Hero Banners / Video
+                                        <span
+                                            class="icon-container"
+                                            aria-hidden="true">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                height="36"
+                                                viewBox="0 0 24 24"
+                                                width="36"
+                                                fill="currentColor"
+                                                focusable="false">
+                                                <path
+                                                    d="M0 0h24v24H0z"
+                                                    fill="none"></path>
+                                                <path
+                                                    d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h3>
+                                <div class="accordion-content">
+                                    <p>
+                                        We use hero banners across Johns Hopkins Medicine website.
+                                    </p>
+                                    <ul class="accordion-content-links">
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-office-of-well-being.html">
+                                                Hero Banner - Office of Well Being
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./banner-inhealth.html">
+                                                Hero Banner - InHealth
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./armstrong-hero-main.html">
+                                                Hero Banner - Armstrong
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./armstrong-hero-sub.html">
+                                                Hero Banner - Armstrong Sub
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./armstrong-strip-banner.html">
+                                                Hero Banner - Armstrong Strip
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-banner-secondary.html">
+                                                Hero Banner - Secondary
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-250-anniversary.html">
+                                                Hero Video - 250 Years Anniversary Bayview
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-bayview-250-years.html">
+                                                Hero Video - 250 Years Bayview
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-about.html">
+                                                Hero Video - About
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-mindfulness.html">
+                                                Hero Video - Mindfulness
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-bariatrics.html">
+                                                Hero Video - Bariatrics
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-forward.html">
+                                                Hero Video - Forward
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-hepius.html">
+                                                Hero Video - HEPIUS
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-imaging.html">
+                                                Hero Video - Imaging
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-patient-care.html">
+                                                Hero Video - Patient Care
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-pedersen-brain-institute.html">
+                                                Hero Video - Pedersen Brain Institute
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-radiology.html">
+                                                Hero Video - Radiology
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-research.html">
+                                                Hero Video - Research
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-som.html">
+                                                Hero Video - School of Medicine
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-surgery.html">
+                                                Hero Video - Surgery
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-telemedicine.html">
+                                                Hero Video - Telemedicine
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./hero-video-wilmer-institute.html">
+                                                Hero Video - Wilmer Institute 100 Years
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <!-- others -->
+                            <li class="accordion-item">
+                                <h3 class="accordion-heading">
+                                    <button
+                                        class="accordion-button"
+                                        aria-expanded="false">
+                                        Others
+                                        <span
+                                            class="icon-container"
+                                            aria-hidden="true">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                height="36"
+                                                viewBox="0 0 24 24"
+                                                width="36"
+                                                fill="currentColor"
+                                                focusable="false">
+                                                <path
+                                                    d="M0 0h24v24H0z"
+                                                    fill="none"></path>
+                                                <path
+                                                    d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h3>
+                                <div class="accordion-content">
+                                    <p>
+                                        Other HTML Snippets that doesn't fall on any category above.
+                                    </p>
+                                    <ul class="accordion-content-links">
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./search-cancer-trials.html">
+                                                Search Cancer Trials
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./epic-forms/husa-form.html">
+                                                HUSA Form
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./attestation.html">
+                                                Attestation
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./main-footer.html">
+                                                Main Footer
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./all-childrens-footer.html">
+                                                All Children's Footer
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./photo-grid.html">
+                                                Photo Grid
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./social-media.html">
+                                                Social Media Icons
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./ocelot.html">
+                                                Ocelot AI
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="./youtube-embed-new.html">
+                                                New YouTube Embed
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="../html/iframes/mychart-login.html">
+                                                MyChart Login Widget
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="../html/star-ratings.html">
+                                                Ratings Stars
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="../html/brand-footer-social-icons.html">
+                                                Brand Footer Social Icons
+                                            </a>
+                                        </li>
+                                        <li class="searchable-item">
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="../html/affiliations.html">
+                                                Affiliations
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER MARKUP STARTS -->
+        <footer>
+            <div class="footer-ent">
+                <div class="footer-inner">
+                    <div class="footer-logo">
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://hopkinsmedicine.org">
+                            <span
+                                class="footer-logo-svg"
+                                role="img"
+                                aria-label="Johns Hopkins Medicine footer logo"></span>
+                            <span class="sr-only">
+                                Johns Hopkins Medicine logo
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="two-column-left">
+                            <div class="int-lang">
+                                <span class="int-lang-label">
+                                    Language Assistance Available:
+                                </span>
+
+                                <ul class="int-lang-list">
+                                    <li class="int-lang-item" lang="es">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Spanish">
+                                            Espa&ntilde;ol
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#English">
+                                            American Sign Language
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#hebrew">
+                                            עִברִי
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#yiddish">
+                                            אידיש
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="am">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Amharic">
+                                            አማርኛ
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="zh">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Chinese">
+                                            繁體中文
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="fr">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#French">
+                                            Fran&ccedil;ais
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="tl">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Tagalog">
+                                            Tagalog
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="int-lang-item fallback"
+                                        lang="ru">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Russian">
+                                            Русский
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="pt">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Portuguese">
+                                            Portugu&ecirc;s
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="it">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Italian">
+                                            Italiano
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="int-lang-item fallback"
+                                        lang="vi">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Vietnamese">
+                                            Tiếng Việt
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="kru">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#KruBassa">
+                                            Ɓ&agrave;sɔ́ɔ̀-w&ugrave;ɖ&ugrave;-po-nyɔ̀
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="ig">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Ibo">
+                                            Igbo asusu
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="yo">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Yoruba">
+                                            &egrave;d&egrave;
+                                            Yor&ugrave;b&aacute;
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="bn">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Bengali">
+                                            বাংলা
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="ja">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Japanese">
+                                            日本語
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="ko">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Korean">
+                                            한국어
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="ht">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Creole">
+                                            Krey&ograve;l Ayisyen
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="ar">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Arabic">
+                                            العربية
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="de">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#German">
+                                            Deutsch
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="pl">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Polish">
+                                            Polski
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="int-lang-item fallback"
+                                        lang="grk">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Greek">
+                                            &Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="gu">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Gujarati">
+                                            ગુજરાતી
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="th">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Thai">
+                                            ภาษาไทย
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="ur">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Urdu">
+                                            اُردُو
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="fa">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Persian">
+                                            فارسی
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="int-lang-item fallback"
+                                        lang="hi">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Hindi">
+                                            हिंदी
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="pdc">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#PennDutch">
+                                            Deitsch
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item" lang="km">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Cambodian">
+                                            ខ្មែរ
+                                        </a>
+                                    </li>
+                                    <li class="int-lang-item">
+                                        <a
+                                            class="int-lang-link"
+                                            href="https://www.hopkinsmedicine.org/patient_care/language-assistance.html#Burmese">
+                                            မြန်မာ
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- int-lang-list -->
+                            </div>
+                            <!-- /.int-languages -->
+                        </div>
+                        <!-- /.two-column-left -->
+
+                        <div class="two-column-right">
+                            <div class="add-info">
+                                <div class="add-info-label">
+                                    Contact &amp; Privacy Information
+                                </div>
+                                <!-- /.add-info-label -->
+
+                                <div class="info-contact">
+                                    <a
+                                        href="https://www.hopkinsmedicine.org/patient_care/patients-visitors/contact-us/">
+                                        Contact Us
+                                    </a>
+                                    <a
+                                        href="https://www.hopkinsmedicine.org/patient_care/locations/index.html">
+                                        Patient Care Locations
+                                    </a>
+                                </div>
+                                <!-- /.info-contact -->
+
+                                <div class="info-privacy">
+                                    <a
+                                        href="https://www.hopkinsmedicine.org/Privacy/patients.html">
+                                        Notice of Privacy Practices
+                                    </a>
+                                    <a
+                                        href="https://it.johnshopkins.edu/policies/privacystatement"
+                                        target="_blank">
+                                        Privacy Statement
+                                    </a>
+                                </div>
+                                <!-- /.info-privacy -->
+
+                                <div class="info-terms">
+                                    <a
+                                        href="https://www.hopkinsmedicine.org/Privacy/terms-conditions-of-use.html">
+                                        Terms &amp; Conditions of Use
+                                    </a>
+                                    <a
+                                        href="https://www.hopkinsmedicine.org/Privacy/_docs/non-discrimination-availability-services-notice.pdf"
+                                        target="_blank">
+                                        Non-Discrimination Notice
+                                    </a>
+                                </div>
+                                <!-- /.info-terms -->
+                            </div>
+                            <!-- /.add-info -->
+
+                            <div class="social-links">
+                                <ul
+                                    aria-label="Johns Hopkins Medicine Social Media"
+                                    class="jssocials-shares clearfix">
+                                    <li
+                                        class="jssocials-share"
+                                        title="Facebook">
+                                        <a
+                                            aria-labelledby="link-label-facebook-C9AFE8D2F81B2C238751D6820B63AD43"
+                                            class="jssocials-share-link facebook"
+                                            href="https://www.facebook.com/Johns.Hopkins.Medicine"
+                                            target="_blank">
+                                            <img
+                                                alt=""
+                                                class="logo"
+                                                src="https://jhmcdn.blob.core.windows.net/qualtrics-theme/images/facebook.png" />
+                                            <span
+                                                class="sr-only"
+                                                id="link-label-facebook-C9AFE8D2F81B2C238751D6820B63AD43">
+                                                Facebook
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="jssocials-share" title="Twitter">
+                                        <a
+                                            aria-labelledby="link-label-twitter-C9AFE8D2F81B2C238751D6820B63AD43"
+                                            class="jssocials-share-link twitter"
+                                            href="https://twitter.com/HopkinsMedicine"
+                                            target="_blank">
+                                            <img
+                                                alt=""
+                                                class="logo"
+                                                src="https://jhmcdn.blob.core.windows.net/qualtrics-theme/images/twitter.png" />
+                                            <span
+                                                class="sr-only"
+                                                id="link-label-twitter-C9AFE8D2F81B2C238751D6820B63AD43">
+                                                Twitter
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="jssocials-share"
+                                        title="LinkedIn">
+                                        <a
+                                            aria-labelledby="link-label-linkedin-C9AFE8D2F81B2C238751D6820B63AD43"
+                                            class="jssocials-share-link linkedin"
+                                            href="https://www.linkedin.com/company/johns-hopkins-medicine"
+                                            target="_blank">
+                                            <img
+                                                alt=""
+                                                class="logo"
+                                                src="https://jhmcdn.blob.core.windows.net/qualtrics-theme/images/linkedin.png" />
+                                            <span
+                                                class="sr-only"
+                                                id="link-label-linkedin-C9AFE8D2F81B2C238751D6820B63AD43">
+                                                LinkedIn
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="jssocials-share" title="YouTube">
+                                        <a
+                                            aria-labelledby="link-label-youtube-C9AFE8D2F81B2C238751D6820B63AD43"
+                                            class="jssocials-share-link youtube"
+                                            href="https://www.youtube.com/user/JohnsHopkinsMedicine"
+                                            target="_blank">
+                                            <img
+                                                alt=""
+                                                class="logo"
+                                                src="https://jhmcdn.blob.core.windows.net/qualtrics-theme/images/youtube.png" />
+                                            <span
+                                                class="sr-only"
+                                                id="link-label-youtube-C9AFE8D2F81B2C238751D6820B63AD43">
+                                                YouTube
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="jssocials-share"
+                                        title="Instagram">
+                                        <a
+                                            aria-labelledby="link-label-instagram-C9AFE8D2F81B2C238751D6820B63AD43"
+                                            class="jssocials-share-link instagram"
+                                            href="https://www.instagram.com/HopkinsMedicine/"
+                                            target="_blank">
+                                            <img
+                                                alt=""
+                                                class="logo"
+                                                src="https://jhmcdn.blob.core.windows.net/qualtrics-theme/images/instagram.png" />
+                                            <span
+                                                class="sr-only"
+                                                id="link-label-instagram-C9AFE8D2F81B2C238751D6820B63AD43">
+                                                Instagram
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="jssocials-share" title="Weibo">
+                                        <a
+                                            aria-labelledby="link-label-weibo-C9AFE8D2F81B2C238751D6820B63AD43"
+                                            class="jssocials-share-link weibo"
+                                            href="https://www.weibo.com/hopkinsmedicine"
+                                            target="_blank">
+                                            <img
+                                                alt=""
+                                                class="logo"
+                                                src="https://jhmcdn.blob.core.windows.net/qualtrics-theme/images/weibo.png" />
+                                            <span
+                                                class="sr-only"
+                                                id="link-label-weibo-C9AFE8D2F81B2C238751D6820B63AD43">
+                                                Weibo
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="footer-inner">
+                    <div class="copyright">
+                        Copyright &copy;
+                        <span class="currentDate">2023</span>
+                        The Johns Hopkins University, The Johns Hopkins
+                        Hospital, and The Johns Hopkins Health System
+                        Corporation. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER MARKUP ENDS -->
+
+        <script type="module" src="../js/index.js"></script>
+    </body>
+</html>
